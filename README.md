@@ -1,57 +1,83 @@
-# 🎨 Kodluyoruz CSS Projects (CSS Ödevleri)
+# 🚀 Kodluyoruz - CSS
 
-This repository contains the styling-focused projects and assignments developed during the CSS training module provided by **Patika.dev**.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](#)
 
-<a href="https://app.patika.dev/rosalie" target="blank">
-  <img src="https://global-uploads.webflow.com/6097e0eca1e87557da031fef/609859a191abe5d64b17fed3_Patika%20logo-p-500.png" height="110" alt="Patika Badge"/>
-</a>
+Bu depo, [Kodluyoruz](https://www.kodluyoruz.org) ve [Patika.dev](https://www.patika.dev) Frontend (Web Geliştirme) eğitim patikası kapsamında hazırlanan temel ve ileri düzey CSS projelerini, stil alıştırmalarını ve çalışma dosyalarını içermektedir.
 
-The project at the end of the online training given to learn CSS in PatikaDev.
-
-## 👨🏼‍💻 About the Developer & Motivation
-
-I have been trying to improve myself since I graduated from Ankara University Computer Engineering. For this, I attend courses from online platforms. I have about 6 months of experience on Ruby on Rails as a Full Stack Developer. I am currently trying to improve myself in Front-end, Back-end, and the fascinating world of Data Science. This repository showcases my growth in creating visually appealing and responsive web designs.
-
-## ✨ Features & Project Scope
-
-This repository focuses on modern styling techniques and layout structures:
-
-*   **Google Homepage Clone:** A pixel-perfect recreation of the Google search page to practice layout precision and asset positioning.
-*   **Flexbox & Grid Layouts:** Practical applications of CSS Flexbox and Grid systems to create responsive and complex web structures.
-*   **Selectors & Pseudo-classes:** Deep dive into advanced CSS selectors, hover effects, and transition animations.
-*   **Responsive Web Design:** Projects designed to work seamlessly across different screen sizes using Media Queries.
-
-## 🛠️ Tech Stack
-
-*   **Styling:** CSS3 (Flexbox, Grid, Keyframes)
-*   **Structure:** HTML5
-*   **Design Principles:** UI/UX Basics, Responsive Design
-*   **Version Control:** Git & GitHub
-
-## 🚀 Getting Started
-
-### Prerequisites
-You only need a modern web browser and a code editor (like VS Code).
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/halukcansarioz/Kodluyoruz-CSS.git
-    ```
-2.  **Run the projects:**
-    *   Open any project folder (e.g., `google-clone`).
-    *   Open the `index.html` file in your browser.
-    *   *Tip:* Use the **Live Server** extension in VS Code to see your CSS changes in real-time.
-
-## 🔗 External Links
-
-*   [Click me to go to Patika.dev!](https://www.patika.dev/tr/bootcamp)
-
-## 👨‍💻 Developer
-
-**Haluk Can Sarıöz**
-*   GitHub: [@halukcansarioz](https://github.com/halukcansarioz)
+## 📚 İçindekiler
+- [Proje Hakkında](#proje-hakkında)
+- [Öğrenim Çıktıları](#öğrenim-çıktıları)
+- [Geliştirme Süreci](#geliştirme-süreci)
+- [Kurulum ve Kullanım](#kurulum-ve-kullanım)
+- [Katkıda Bulunma](#katkıda-bulunma)
+- [Lisans](#lisans)
 
 ---
-*This repository is a part of my continuous learning path in Front-End development.*
+
+## 💻 Proje Hakkında
+Bu proje, web sayfalarına görsel estetik kazandıran CSS (Cascading Style Sheets) dilinin inceliklerini kavramak, modern web tasarım standartlarına (Responsive Design vb.) uygun sayfa düzenleri oluşturmak ve görsel hiyerarşiyi sağlamak amacıyla oluşturulmuştur.
+
+## 🗂 Öğrenim Çıktıları
+Bu depodaki çalışmalar genel olarak aşağıdaki konuları kapsamaktadır:
+* **Seçiciler (Selectors):** Sınıf (Class), ID, Element ve Pseudo-class seçicileri
+* **Kutu Modeli (Box Model):** Margin, Padding, Border ve Content ilişkisi
+* **Konumlandırma (Positioning):** Static, Relative, Absolute, Fixed ve Sticky
+* **Modern Düzenler:** Flexbox (Esnek Kutu Mimarisi) ve CSS Grid (Izgara Sistemi)
+* **Duyarlı Tasarım (Responsive Design):** Media Queries kullanarak mobil uyumlu sayfalar geliştirme
+* **Animasyon ve Geçişler:** Transitions, Transforms ve Keyframes animasyonları
+
+---
+
+## 🛠 Geliştirme Süreci
+
+Projeye yeni bir stil dosyası eklerken veya mevcut kodları güncellerken aşağıdaki adımları takip edebilirsiniz:
+
+### 1. Forklama
+Öncelikle depoyu kendi GitHub hesabınıza fork'layın.
+
+### 2. Yeni Dal (Branch) Oluşturma
+Her yeni çalışma veya düzeltme için yeni bir dal oluşturmak düzeni korur. Terminalde şu komutu kullanın:
+```bash
+git checkout -b ozellik/yeni-css-sayfasi
+```
+
+### 3. Kodları Gönderme (Push)
+Değişikliklerinizi yaptıktan ve commit'ledikten sonra, hazırladığınız dalı GitHub'a göndermek için:
+```bash
+git push origin ozellik/yeni-css-sayfasi
+```
+
+---
+
+## 🚀 Kurulum ve Kullanım
+
+Projeyi yerel bilgisayarınıza indirmek ve incelemek için aşağıdaki adımları izleyin:
+
+1. Depoyu klonlayın:
+```bash
+git clone [https://github.com/halukcansarioz/Kodluyoruz-CSS.git](https://github.com/halukcansarioz/Kodluyoruz-CSS.git)
+```
+
+2. Proje dizinine gidin:
+```bash
+cd Kodluyoruz-CSS
+```
+
+3. İncelemek istediğiniz `.html` (ve ona bağlı `.css`) dosyasına çift tıklayarak varsayılan tarayıcınızda veya favori metin editörünüzde (VS Code vb.) açabilirsiniz.
+
+---
+
+## 🤝 Katkıda Bulunma
+
+Projeye katkı sağlamaktan çekinmeyin!
+1. Bu depoyu Fork'layın.
+2. **Branch oluşturun** (`git checkout -b feature/flexbox-tasarimi`).
+3. Değişikliklerinizi yapın ve commit edin.
+4. **Kodlarınızı Push'layın** (`git push origin feature/flexbox-tasarimi`).
+5. Bir Pull Request açın.
+
+---
+
+## 📜 Lisans
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. Dilediğiniz gibi inceleyebilir ve çalışmalarınızda faydalanabilirsiniz.
