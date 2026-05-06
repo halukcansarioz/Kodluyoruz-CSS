@@ -1,75 +1,113 @@
-# 🚀 Kodluyoruz - CSS
+# 🎨 Kodluyoruz CSS
+### (CSS Assignments & Projects from the Patika.dev Frontend Bootcamp)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](#)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](#)
+[![Kodluyoruz](https://img.shields.io/badge/Kodluyoruz-FCA311?style=flat&logo=codeigniter&logoColor=white)](#)
 
-Bu depo, [Kodluyoruz](https://www.kodluyoruz.org) ve [Patika.dev](https://www.patika.dev) Frontend (Web Geliştirme) eğitim patikası kapsamında hazırlanan temel ve ileri düzey CSS projelerini, stil alıştırmalarını ve çalışma dosyalarını içermektedir.
+This repository contains basic and intermediate CSS projects, styling exercises, and study files created as part of the [Kodluyoruz](https://www.kodluyoruz.org) and [Patika.dev](https://www.patika.dev) Frontend Web Development bootcamp.
 
-## 📚 İçindekiler
-- [Proje Hakkında](#proje-hakkında)
-- [Öğrenim Çıktıları](#öğrenim-çıktıları)
-- [Geliştirme Süreci](#geliştirme-süreci)
-- [Kurulum ve Kullanım](#kurulum-ve-kullanım)
-- [Katkıda Bulunma](#katkıda-bulunma)
-- [Lisans](#lisans)
-
----
-
-## 💻 Proje Hakkında
-Bu proje, web sayfalarına görsel estetik kazandıran CSS (Cascading Style Sheets) dilinin inceliklerini kavramak, modern web tasarım standartlarına (Responsive Design vb.) uygun sayfa düzenleri oluşturmak ve görsel hiyerarşiyi sağlamak amacıyla oluşturulmuştur.
-
-## 🗂 Öğrenim Çıktıları
-Bu depodaki çalışmalar genel olarak aşağıdaki konuları kapsamaktadır:
-* **Seçiciler (Selectors):** Sınıf (Class), ID, Element ve Pseudo-class seçicileri
-* **Kutu Modeli (Box Model):** Margin, Padding, Border ve Content ilişkisi
-* **Konumlandırma (Positioning):** Static, Relative, Absolute, Fixed ve Sticky
-* **Modern Düzenler:** Flexbox (Esnek Kutu Mimarisi) ve CSS Grid (Izgara Sistemi)
-* **Duyarlı Tasarım (Responsive Design):** Media Queries kullanarak mobil uyumlu sayfalar geliştirme
-* **Animasyon ve Geçişler:** Transitions, Transforms ve Keyframes animasyonları
+## 📚 Table of Contents
+- [About the Project](#about-the-project)
+- [Learning Outcomes](#learning-outcomes)
+- [Project Structure](#project-structure)
+- [Development Workflow](#development-workflow)
+- [Installation & Usage](#installation--usage)
+- [Contributing](#contributing)
+- [Contact](#contact)
+- [License](#license)
 
 ---
 
-## 🛠 Geliştirme Süreci
+## About the Project
+This project was created to master the intricacies of **CSS (Cascading Style Sheets)** — the language that gives visual aesthetics to web pages — to build page layouts that conform to modern web design standards (Responsive Design, etc.), and to establish a strong visual hierarchy.
 
-Projeye yeni bir stil dosyası eklerken veya mevcut kodları güncellerken aşağıdaki adımları takip edebilirsiniz:
+- **Developer:** Haluk Can SARIÖZ
+- **Program:** Kodluyoruz & Patika.dev Frontend Web Development Bootcamp
+- **Purpose:** Learn and practice CSS fundamentals through hands-on assignments
 
-### 1. Forklama
-Öncelikle repoyu kendi GitHub hesabınıza fork'layın.
+---
 
-### 2. Yeni Dal (Branch) Oluşturma
-Her yeni çalışma veya düzeltme için yeni bir dal oluşturmak düzeni korur. Terminalde şu komutu kullanın:
-```
-git checkout -b ozellik/yeni-css-sayfasi
-```
+## Learning Outcomes
+The exercises in this repository cover the following topics:
 
-### 3. Kodları Gönderme (Push)
-Değişikliklerinizi yaptıktan ve commit'ledikten sonra, hazırladığınız dalı GitHub'a göndermek için:
-```
-git push origin ozellik/yeni-css-sayfasi
+- **Selectors:** Class, ID, Element, and Pseudo‑class selectors
+- **Box Model:** The relationship between Margin, Padding, Border, and Content
+- **Positioning:** Static, Relative, Absolute, Fixed, and Sticky positioning
+- **Modern Layouts:** Flexbox (Flexible Box Layout) and CSS Grid
+- **Responsive Design:** Developing mobile‑friendly pages using Media Queries
+- **Animations & Transitions:** Transitions, Transforms, and Keyframes animations
+
+---
+
+## Project Structure
+```text
+Kodluyoruz-CSS/
+├── CSS-Ödev1/          # First CSS assignment
+├── Google/             # Modern Google homepage clone
+├── Google1998/         # Google 1998 retro homepage clone
+├── LICENSE             # MIT License
+└── README.md           # Project documentation
 ```
 
 ---
 
-## 💻 Kurulum ve Kullanım
+## Development Workflow
+When adding a new style file or updating existing code, you can follow these steps:
 
-1. Repoyu klonlayın:
+### 1. Fork
+First, fork the repository to your own GitHub account.
+
+### 2. Create a New Branch
+Creating a new branch for each exercise or fix keeps things organized:
+```bash
+git checkout -b feature/new-css-page
 ```
+
+### 3. Push Your Code
+After making and committing your changes, push the branch to GitHub:
+```bash
+git push origin feature/new-css-page
+```
+
+---
+
+## Installation & Usage
+
+**1. Clone the repository:**
+```bash
 git clone https://github.com/halukcansarioz/Kodluyoruz-CSS.git
 ```
 
-2. Projeyi Açın: Klasör içerisindeki ilgili `.html` veya `.css` dosyasına tıklayarak projeyi kod editörünüzde (VS Code vb.) açın.
+**2. Open the project:**
+Navigate into the folder and open the relevant `.html` or `.css` file in your code editor (VS Code, etc.). You can view the pages directly in your browser by double‑clicking any `.html` file.
 
 ---
 
-## 🤝 Katkıda Bulunma
+## Contributing
+Contributions are welcome!
 
-1. Bu repoyu Fork'layın.
-2. **Branch oluşturun** (`git checkout -b feature/flexbox-tasarimi`).
-3. Değişikliklerinizi yapın ve commit edin.
-4. **Kodlarınızı Push'layın** (`git push origin feature/flexbox-tasarimi`).
-5. Bir Pull Request açın.
+1. **Fork** this repository.
+2. **Create a branch** (`git checkout -b feature/flexbox-layout`).
+3. Make your changes and **commit** them.
+4. **Push your code** (`git push origin feature/flexbox-layout`).
+5. Open a **Pull Request**.
 
 ---
 
-## 📜 Lisans
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. Dilediğiniz gibi inceleyebilir ve çalışmalarınızda faydalanabilirsiniz.
+<a name="contact"></a>
+## Contact
+**Haluk Can Sarıöz**
+- GitHub: [@halukcansarioz](https://github.com/halukcansarioz)
+- Email: [halukcansarioz19@gmail.com](mailto:halukcansarioz19@gmail.com)
+- LinkedIn: [Haluk Can Sarıöz](https://www.linkedin.com/in/halukcansarioz)
+
+---
+
+*If you find this project helpful, please ⭐ the repository!*
+
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE). Feel free to review and use it in your own work.
