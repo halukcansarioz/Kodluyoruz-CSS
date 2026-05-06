@@ -34,44 +34,36 @@ Bu depodaki çalışmalar genel olarak aşağıdaki konuları kapsamaktadır:
 Projeye yeni bir stil dosyası eklerken veya mevcut kodları güncellerken aşağıdaki adımları takip edebilirsiniz:
 
 ### 1. Forklama
-Öncelikle depoyu kendi GitHub hesabınıza fork'layın.
+Öncelikle repoyu kendi GitHub hesabınıza fork'layın.
 
 ### 2. Yeni Dal (Branch) Oluşturma
 Her yeni çalışma veya düzeltme için yeni bir dal oluşturmak düzeni korur. Terminalde şu komutu kullanın:
-```bash
+```
 git checkout -b ozellik/yeni-css-sayfasi
 ```
 
 ### 3. Kodları Gönderme (Push)
 Değişikliklerinizi yaptıktan ve commit'ledikten sonra, hazırladığınız dalı GitHub'a göndermek için:
-```bash
+```
 git push origin ozellik/yeni-css-sayfasi
 ```
 
 ---
 
-## 🚀 Kurulum ve Kullanım
+## 💻 Kurulum ve Kullanım
 
-Projeyi yerel bilgisayarınıza indirmek ve incelemek için aşağıdaki adımları izleyin:
-
-1. Depoyu klonlayın:
-```bash
-git clone [https://github.com/halukcansarioz/Kodluyoruz-CSS.git](https://github.com/halukcansarioz/Kodluyoruz-CSS.git)
+1. Repoyu klonlayın:
+```
+git clone https://github.com/halukcansarioz/Kodluyoruz-CSS.git
 ```
 
-2. Proje dizinine gidin:
-```bash
-cd Kodluyoruz-CSS
-```
-
-3. İncelemek istediğiniz `.html` (ve ona bağlı `.css`) dosyasına çift tıklayarak varsayılan tarayıcınızda veya favori metin editörünüzde (VS Code vb.) açabilirsiniz.
+2. Projeyi Açın: Klasör içerisindeki ilgili `.html` veya `.css` dosyasına tıklayarak projeyi kod editörünüzde (VS Code vb.) açın.
 
 ---
 
 ## 🤝 Katkıda Bulunma
 
-Projeye katkı sağlamaktan çekinmeyin!
-1. Bu depoyu Fork'layın.
+1. Bu repoyu Fork'layın.
 2. **Branch oluşturun** (`git checkout -b feature/flexbox-tasarimi`).
 3. Değişikliklerinizi yapın ve commit edin.
 4. **Kodlarınızı Push'layın** (`git push origin feature/flexbox-tasarimi`).
